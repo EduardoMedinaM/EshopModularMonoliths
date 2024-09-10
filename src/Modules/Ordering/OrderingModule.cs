@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Ordering;
@@ -14,5 +15,15 @@ public static class OrderingModule
         //    .AddApiServices(configuration);
 
         return services;
+    }
+
+    public static IApplicationBuilder UseOrderingModule(this IApplicationBuilder app)
+    {
+        //app
+        //    .UseApplicationServices()
+        //    .UseInfrastructureServices()
+        //    .UseApiServices();
+
+        return app;
     }
 }
