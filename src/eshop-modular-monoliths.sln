@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{0EF57A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{D24550DF-FCFB-4F06-BD8F-CEDD5681A387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "Modules\Catalog\Catalog.csproj", "{DAD16A00-844E-4998-B6E9-9E7CDB20BA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog", "Modules\Catalog\Catalog.csproj", "{DAD16A00-844E-4998-B6E9-9E7CDB20BA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket", "Modules\Basket\Basket.csproj", "{463683ED-2506-4F7C-8C92-8C5B9829255B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket", "Modules\Basket\Basket.csproj", "{463683ED-2506-4F7C-8C92-8C5B9829255B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "Modules\Ordering\Ordering.csproj", "{4864FE66-096C-441A-9D76-C60B0E7089D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering", "Modules\Ordering\Ordering.csproj", "{4864FE66-096C-441A-9D76-C60B0E7089D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{D37BC512-AB09-4B23-853E-2C1314A6552C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{D37BC512-AB09-4B23-853E-2C1314A6552C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{360A964D-FE4B-4CAC-A84A-2E73F4E05DFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D37BC512-AB09-4B23-853E-2C1314A6552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37BC512-AB09-4B23-853E-2C1314A6552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37BC512-AB09-4B23-853E-2C1314A6552C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360A964D-FE4B-4CAC-A84A-2E73F4E05DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360A964D-FE4B-4CAC-A84A-2E73F4E05DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360A964D-FE4B-4CAC-A84A-2E73F4E05DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360A964D-FE4B-4CAC-A84A-2E73F4E05DFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
